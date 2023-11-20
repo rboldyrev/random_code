@@ -31,4 +31,5 @@ y0 = k * x
 plt.plot(n,y, label = f'tg(a) = {k}')
 plt.plot(x0,y0)
 plt.legend()
+plt.savefig('pic.png', dpi = 300)
 plt.show()
